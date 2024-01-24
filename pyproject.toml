@@ -1,0 +1,20 @@
+[tool.pdm.scripts]
+scan = "python app.py {args}"
+
+[project]
+name = "Albion-Dungeon-Scanner"
+version = "0.1.0"
+description = "Default template for PDM package"
+authors = [
+    {name = "grantUser", email = "grantuser@skiff.com"},
+]
+dependencies = [
+    "rich>=13.7.0",
+]
+requires-python = "==3.10.*"
+readme = "README.md"
+license = {text = "MIT"}
+
+
+[tool.pdm]
+package-type = "application"
