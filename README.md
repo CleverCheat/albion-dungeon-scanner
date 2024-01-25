@@ -10,13 +10,13 @@ Before starting the installation, make sure you have Python 3.10 or a later vers
 
 2. Once PDM is installed, navigate to the project directory and download the contents of the [GREEN](https://github.com/ao-data/ao-bin-dumps/tree/master/templates/GREEN) folder from the [ao-bin-dumps](https://github.com/ao-data/ao-bin-dumps) repository. Create a folder named "Template" at the root of the Albion Dungeon Scanner project.
 
-3. Run the following command to install the project dependencies:
+3. Run the following command in the root of the albion-dungeon-scanner folder to install the project's dependencies:
 
    ```bash
    pdm install
     ```
 
-4. After installation is complete, enter a dungeon and execute the following command to start the scanning process:
+4. After installation is complete, enter a dungeon and execute the following command in the root of the albion-dungeon-scanner folder to start the scanning process:
 
    ```bash
    pdm run scan
