@@ -7,6 +7,8 @@ authors = [
 ]
 dependencies = [
     "rich>=13.7.0",
+    "pyyaml>=6.0.1",
+    "pycryptodome>=3.20.0",
 ]
 requires-python = "==3.10.*"
 readme = "README.md"
