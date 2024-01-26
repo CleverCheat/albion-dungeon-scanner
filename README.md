@@ -8,13 +8,20 @@ Before starting the installation, make sure you have Python 3.10 or a later vers
 
 1. Install PDM by following the instructions available on [the official PDM website](https://pdm-project.org/latest/#recommended-installation-method).
 
-2. Once PDM is installed, navigate to the project directory and download the contents of the [GREEN](https://github.com/ao-data/ao-bin-dumps/tree/master/templates/GREEN) folder from the [ao-bin-dumps](https://github.com/ao-data/ao-bin-dumps) repository. Create a folder named "Template" at the root of the Albion Dungeon Scanner project.
-
-3. Run the following command in the root of the albion-dungeon-scanner folder to install the project's dependencies:
+2. Run the following command in the root of the albion-dungeon-scanner folder to install the project's dependencies:
 
    ```bash
    pdm install
     ```
+
+3. Rename the .env.base file to .env and fill in the necessary information.
+
+    For example **`ao-dir`** is the path to your game, here is an example:
+
+    ```yaml
+    "ao-dir": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Albion Online\\game\\" 
+    ```
+
 
 4. After installation is complete, enter a dungeon and execute the following command in the root of the albion-dungeon-scanner folder to start the scanning process:
 
@@ -26,11 +33,11 @@ Before starting the installation, make sure you have Python 3.10 or a later vers
 ## Potential Improvements
 
 - Automatic detection of dungeon entrances and floor changes through Photon events.
-- Local extraction of binaries to XML format.
+- ~~Local extraction of binaries to XML format.~~ Done
 
 ## Disclaimer
 
-This code is purely for fun, and I am aware that it might not be the best-written code. If someone messes up with this code, I cannot be held responsible for any consequences.
+If someone messes up with this code, I cannot be held responsible for any consequences.
 
 ## License
 
