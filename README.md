@@ -34,7 +34,7 @@ This project, named Albion Dungeon Scanner, is a dungeon scanner developed in Py
 
 ### Support
 
-For support or questions, [join our Discord community](https://discord.gg/BtYj4S5gSb) or [open an issue](https://github.com/CleverCheat/albion-dungeon-scanner/issues/new) on the GitHub repository.
+For support or questions, ~~[join our Discord community]()~~ or [open an issue](https://github.com/CleverCheat/albion-dungeon-scanner/issues/new) on the GitHub repository.
 
 ## Disclaimer
 
